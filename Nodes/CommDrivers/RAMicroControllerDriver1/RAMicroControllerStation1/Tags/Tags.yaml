@@ -1,0 +1,11 @@
+Name: Tags
+Type: FolderType
+Children:
+- Name: MICRO850_INTEGER
+  Type: MicroControllerTag
+  DataType: Int16
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MICRO850_INTEGER"
