@@ -74,15 +74,23 @@ Project:
    Uri: 'urn:FTOptix:MicroController:Net'
    Module: FTOptix.MicroController.Net
    Version: 3.1
+  19:
+   Uri: 'urn:FTOptix:WebUI'
+   Module: FTOptix.WebUI
+   Version: 2.0
+  20:
+   Uri: 'urn:FTOptix:WebUI:Net'
+   Module: FTOptix.WebUI.Net
+   Version: 2.0
  Statistics:
-  TotalNodeCount: 262
-  Objects: 97
+  TotalNodeCount: 294
+  Objects: 103
   ObjectTypes: 1
-  Variables: 163
+  Variables: 189
   VariableTypes: 0
   DataTypes: 0
   Methods: 1
-  References: 6
+  References: 12
   ReferenceTypes: 0
   Files: 26
  Nodes:

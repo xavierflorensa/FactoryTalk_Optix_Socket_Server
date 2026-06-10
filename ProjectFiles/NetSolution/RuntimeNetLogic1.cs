@@ -17,6 +17,7 @@ using System.Text;
 using System.Diagnostics;
 using FTOptix.CommunicationDriver;
 using FTOptix.MicroController;
+using FTOptix.WebUI;
 #endregion
 public class RuntimeNetLogic1 : FTOptix.NetLogic.BaseNetLogic
 { 
