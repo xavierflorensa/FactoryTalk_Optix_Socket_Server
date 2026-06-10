@@ -36,10 +36,10 @@ public class RuntimeNetLogic1 : FTOptix.NetLogic.BaseNetLogic
         Log.Info("Waiting for a connection.");
         TcpClient client = listener.AcceptTcpClient();
         //----------------------------------
-        var clientIpLAN = client.Client.LocalEndPoint;
-        Log.Info(clientIpLAN.ToString());
+        var clientRemoteIP = client.Client.RemoteEndPoint;
+        Log.Info(clientRemoteIP.ToString());
         //Console.WriteLine("Client accepted );
-        textbox.Text = "Client accepted from IP " + clientIpLAN.ToString() ;
+        textbox.Text = "Client accepted from IP " + clientRemoteIP.ToString() ;
         //----------------------------------
         Log.Info("Client accepted.");
 
